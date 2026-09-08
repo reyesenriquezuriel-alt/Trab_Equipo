@@ -1,0 +1,20 @@
+@startuml
+actor Usuario
+participant Interfaz
+participant Sistema
+participant BaseDeDatos
+participant Notificacion
+
+Usuario -> Interfaz: Solicita reserva
+Interfaz -> Sistema: Procesar solicitud
+Sistema -> BaseDeDatos: Verificar disponibilidad
+BaseDeDatos --> Sistema: Resultado
+
+alt Libro disponible
+  Sistema -> BaseDeDatos: Registrar reserva
+  Sistema -> Notificacion: Enviar confirmación
+  Notificacion --> Usuario: Mensaje de reserva exitosa
+else Libro no disponible
+  Sistema --> Usuario: Aviso de no disponible
+end
+@enduml
