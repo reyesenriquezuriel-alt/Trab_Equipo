@@ -1,0 +1,19 @@
+@startuml
+skinparam orientation portrait
+start
+:Usuario solicita préstamo;
+if (Usuario registrado?) then (Sí)
+  if (Libro disponible?) then (Sí)
+    :Registrar préstamo;
+    :Actualizar catálogo;
+    :Generar comprobante;
+    :Confirmar al usuario;
+  else (No)
+    :Notificar no disponible;
+    :Ofrecer reserva;
+  endif
+else (No)
+  :Solicitar registro de usuario;
+endif
+stop
+@enduml
