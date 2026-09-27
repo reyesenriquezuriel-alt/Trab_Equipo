@@ -1,0 +1,13 @@
+@startuml
+actor Bibliotecario
+participant Interfaz
+participant Sistema
+participant BaseDeDatos
+
+Bibliotecario -> Interfaz: Capturar datos
+Interfaz -> Sistema: Validar información
+Sistema -> BaseDeDatos: Registrar usuario
+BaseDeDatos --> Sistema: Confirmación
+Sistema --> Interfaz: Usuario registrado
+Interfaz --> Bibliotecario: Notificación exitosa
+@enduml
