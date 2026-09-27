@@ -1,0 +1,7 @@
+@startuml
+actor Usuario
+actor Administrador
+Usuario --> (Acceder sistema)
+Administrador --> (Gestionar seguridad)
+Administrador --> (Asignar roles)
+@enduml

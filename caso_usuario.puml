@@ -1,0 +1,8 @@
+@startuml
+actor Usuario
+Usuario --> (Buscar libro)
+Usuario --> (Reservar libro)
+Usuario --> (Prestar libro)
+Usuario --> (Devolver libro)
+Usuario --> (Consultar historial)
+@enduml

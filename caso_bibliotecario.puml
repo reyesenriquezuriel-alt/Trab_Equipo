@@ -1,0 +1,7 @@
+@startuml
+actor Bibliotecario
+Bibliotecario --> (Registrar usuario)
+Bibliotecario --> (Gestionar catálogo)
+Bibliotecario --> (Controlar préstamos)
+Bibliotecario --> (Generar reportes)
+@enduml
