@@ -1,0 +1,12 @@
+@startuml sub_prestar
+rectangle "Subescenario: Prestar libro" {
+  usecase "Solicitar préstamo"
+  usecase "Validar disponibilidad"
+  usecase "Verificar usuario"
+  usecase "Registrar préstamo"
+  usecase "Actualizar catálogo"
+  usecase "Emitir comprobante"
+  usecase "Notificar bibliotecario"
+  usecase "Registrar en historial"
+}
+@enduml

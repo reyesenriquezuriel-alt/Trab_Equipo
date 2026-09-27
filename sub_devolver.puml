@@ -1,0 +1,12 @@
+@startuml sub_devolver
+rectangle "Subescenario: Devolver libro" {
+  usecase "Entregar libro"
+  usecase "Verificar estado"
+  usecase "Registrar devolución"
+  usecase "Actualizar catálogo"
+  usecase "Eliminar reserva"
+  usecase "Notificar usuario"
+  usecase "Generar comprobante"
+  usecase "Registrar en historial"
+}
+@enduml

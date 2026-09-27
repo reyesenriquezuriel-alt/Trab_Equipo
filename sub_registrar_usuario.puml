@@ -1,0 +1,12 @@
+@startuml sub_registarar_usuario
+rectangle "Subescenario: Registrar usuario" {
+  usecase "Capturar datos"
+  usecase "Validar información"
+  usecase "Asignar credenciales"
+  usecase "Registrar en base de datos"
+  usecase "Confirmar registro"
+  usecase "Emitir comprobante"
+  usecase "Notificar usuario"
+  usecase "Actualizar catálogo de usuarios"
+}
+@enduml

@@ -1,0 +1,12 @@
+@startuml sub_buscar
+rectangle "Subescenario: Buscar libro" {
+  usecase "Ingresar criterios de búsqueda"
+  usecase "Validar entrada"
+  usecase "Consultar catálogo"
+  usecase "Mostrar resultados"
+  usecase "Seleccionar libro"
+  usecase "Ver disponibilidad"
+  usecase "Confirmar acción"
+  usecase "Finalizar búsqueda"
+}
+@enduml
