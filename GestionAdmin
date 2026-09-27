@@ -1,0 +1,13 @@
+@startuml
+actor Administrador
+participant Interfaz
+participant Sistema
+participant BaseDeDatos
+
+Administrador -> Interfaz: Solicita gestión de roles
+Interfaz -> Sistema: Procesar solicitud
+Sistema -> BaseDeDatos: Actualizar permisos
+BaseDeDatos --> Sistema: Confirmación
+Sistema --> Interfaz: Roles actualizados
+Interfaz --> Administrador: Notificación exitosa
+@enduml
