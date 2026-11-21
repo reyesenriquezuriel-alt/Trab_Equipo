@@ -1,0 +1,13 @@
+
+@startuml sub_config_seguridad
+rectangle "Subescenario: Configurar sistema y seguridad" {
+  usecase "Definir parámetros"
+  usecase "Actualizar configuración"
+  usecase "Asignar roles"
+  usecase "Controlar accesos"
+  usecase "Validar credenciales"
+  usecase "Registrar cambios"
+  usecase "Emitir reporte"
+  usecase "Confirmar acción"
+}
+@enduml

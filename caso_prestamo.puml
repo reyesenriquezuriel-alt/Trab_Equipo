@@ -1,0 +1,8 @@
+@startuml
+actor Usuario
+actor Bibliotecario
+Usuario --> (Solicitar préstamo)
+Bibliotecario --> (Validar disponibilidad)
+Bibliotecario --> (Registrar préstamo)
+Usuario --> (Recibir libro)
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+rectangle "Subescenarios Administrador" {
+  usecase "Configurar sistema" as A1
+  usecase "Gestionar seguridad" as A2
+}
+
+A1 --> (Definir parámetros)
+A1 --> (Actualizar configuración)
+A2 --> (Asignar roles)
+A2 --> (Controlar accesos)
+@enduml

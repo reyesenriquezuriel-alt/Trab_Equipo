@@ -1,0 +1,13 @@
+@startuml
+actor Usuario
+participant Interfaz
+participant Sistema
+participant BaseDeDatos
+
+Usuario -> Interfaz: Solicita búsqueda
+Interfaz -> Sistema: Procesar solicitud
+Sistema -> BaseDeDatos: Consultar libro
+BaseDeDatos --> Sistema: Resultado
+Sistema --> Interfaz: Mostrar disponibilidad
+Interfaz --> Usuario: Entregar resultado
+@enduml

@@ -1,0 +1,12 @@
+@startuml sub_reservar
+rectangle "Subescenario: Reservar libro" {
+  usecase "Seleccionar libro"
+  usecase "Ver disponibilidad"
+  usecase "Solicitar reserva"
+  usecase "Validar usuario"
+  usecase "Confirmar reserva"
+  usecase "Actualizar estado"
+  usecase "Notificar usuario"
+  usecase "Registrar en historial"
+}
+@enduml

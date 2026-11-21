@@ -1,0 +1,19 @@
+@startuml
+rectangle "Subescenarios Usuario" {
+  usecase "Buscar libro" as U1
+  usecase "Reservar libro" as U2
+  usecase "Prestar libro" as U3
+  usecase "Devolver libro" as U4
+  usecase "Consultar historial" as U5
+}
+
+U1 --> (Ingresar criterios de búsqueda)
+U1 --> (Mostrar resultados)
+U2 --> (Seleccionar libro)
+U2 --> (Confirmar reserva)
+U3 --> (Solicitar préstamo)
+U3 --> (Validar disponibilidad)
+U4 --> (Entregar libro)
+U4 --> (Actualizar estado)
+U5 --> (Ver historial)
+@enduml

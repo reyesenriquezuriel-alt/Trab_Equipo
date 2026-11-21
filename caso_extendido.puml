@@ -1,0 +1,6 @@
+@startuml
+actor Usuario
+Usuario --> (Reservar libro)
+(Reservar libro) --> (Validar disponibilidad) : <<include>>
+(Reservar libro) --> (Confirmar reserva) : <<extend>>
+@enduml

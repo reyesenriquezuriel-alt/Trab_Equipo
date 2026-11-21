@@ -1,0 +1,8 @@
+@startuml
+actor Bibliotecario
+actor Administrador
+Bibliotecario --> (Gestionar catálogo)
+Administrador --> (Configurar sistema)
+Administrador --> (Gestionar seguridad)
+Bibliotecario --> (Generar reportes)
+@enduml

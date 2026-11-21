@@ -1,0 +1,20 @@
+@startuml
+actor Usuario
+actor Bibliotecario
+actor Administrador
+
+Usuario --> (Buscar libro)
+Usuario --> (Reservar libro)
+Usuario --> (Prestar libro)
+Usuario --> (Devolver libro)
+Usuario --> (Consultar historial)
+
+Bibliotecario --> (Registrar usuario)
+Bibliotecario --> (Gestionar catálogo)
+Bibliotecario --> (Controlar préstamos)
+Bibliotecario --> (Generar reportes)
+
+Administrador --> (Configurar sistema)
+Administrador --> (Gestionar seguridad)
+@enduml
+

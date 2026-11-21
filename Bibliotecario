@@ -1,0 +1,17 @@
+@startuml
+rectangle "Subescenarios Bibliotecario" {
+  usecase "Registrar usuario" as B1
+  usecase "Gestionar catálogo" as B2
+  usecase "Controlar préstamos" as B3
+  usecase "Generar reportes" as B4
+}
+
+B1 --> (Capturar datos)
+B1 --> (Validar información)
+B2 --> (Agregar libro)
+B2 --> (Actualizar datos)
+B3 --> (Registrar préstamo)
+B3 --> (Registrar devolución)
+B4 --> (Seleccionar periodo)
+B4 --> (Emitir reporte)
+@enduml

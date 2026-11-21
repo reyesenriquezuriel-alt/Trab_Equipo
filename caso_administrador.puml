@@ -1,0 +1,5 @@
+@startuml
+actor Administrador
+Administrador --> (Configurar sistema)
+Administrador --> (Gestionar seguridad)
+@enduml

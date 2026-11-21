@@ -1,0 +1,12 @@
+@startuml sub_gestion_catalogo
+rectangle "Subescenario: Gestionar catálogo" {
+  usecase "Agregar libro"
+  usecase "Actualizar datos"
+  usecase "Eliminar libro"
+  usecase "Validar información"
+  usecase "Registrar cambios"
+  usecase "Notificar administrador"
+  usecase "Emitir reporte"
+  usecase "Confirmar acción"
+}
+@enduml

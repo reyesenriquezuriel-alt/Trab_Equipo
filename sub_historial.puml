@@ -1,0 +1,12 @@
+@startuml sub_historia
+rectangle "Subescenario: Consultar historial" {
+  usecase "Solicitar historial"
+  usecase "Validar usuario"
+  usecase "Consultar base de datos"
+  usecase "Mostrar préstamos activos"
+  usecase "Mostrar devoluciones"
+  usecase "Mostrar reservas"
+  usecase "Generar reporte"
+  usecase "Finalizar consulta"
+}
+@enduml
